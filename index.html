@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Phaser Breakout Game</title>
+<link rel="stylesheet" href="index.css">
+<script src="phaser.min.js"></script>
+</head>
+<body>
+<div id="game"></div>
+<div id="authContainer" style="display:none;">
+  <input type="text" id="usernameInput" placeholder="Username" required>
+  <input type="password" id="passwordInput" placeholder="Password" required>
+  <input type="checkbox" id="togglePassword"> Show Password
+  <button id="loginButton">Login</button>
+  <button id="registerButton">Register</button>
+</div>
+<div id="highScoresContainer" style="display:none;"></div>
+<script src="breakout.js"></script>
+</body>
+</html>

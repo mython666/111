@@ -1,0 +1,22 @@
+/* style.css */
+#authContainer {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+#authContainer input, #authContainer button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#highScoresContainer {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+#highScoresContainer div {
+  margin-bottom: 5px;
+}
